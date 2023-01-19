@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, serif;
+  }
+  body {
+    background-image: url("White Hexagon.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-width: 220px;
+    background-height: 550px;
+  }
+
+  .nav {
+   overflow: hidden;
+   background-color: white;
+   }
+
+  .nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+  .nav a:hover {
+    background-color: #b2e6ff;
+  }
+
+  .main {
+    color: darkslategray;
+    font-weight: bold;
+    text-align: center;
+  }
+  .main button {
+    color: darkslategray;
+    background-color: #8cd9ff;
+    padding: 10px 25px;
+    border-color: #6ecfff;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .main button:hover {
+    background-color: #c2ebff;
+    cursor: pointer;
+    border-color: #a8edff;
+  }
+
+  .dropdown {
+   float: left;
+   overflow: hidden;
+  }
+
+  .dropdown .dropdown-button {
+   font-size: 16px;  
+   border: none;
+   color: black;
+   padding: 14px 16px;
+   background-color: inherit;
+   font-family: inherit;
+   margin: 0;
+  }
+
+  .nav a:hover, .dropdown:hover .dropdown-button {
+   background-color: #66ccff;
+   color: black;
+   text-decoration: none;
+  }
+
+  .dropdown-links {
+   display: none;
+   position: absolute;
+   background-color: white;
+   min-width: 160px;
+  }
+
+  .dropdown-links a {
+   float: none;
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+   }
+
+  .dropdown-links a:hover {
+   background-color: #99ddff;
+   text-decoration: none;
+  }
+
+  .dropdown:hover .dropdown-links {
+   display: block;
+  }
+
+  .footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #8cd9ff;
+    padding: 10px 20px;
+  }
+
+  .footer a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: darkslategray;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+    color: #336699;
+    font-weight: bold;
+  }

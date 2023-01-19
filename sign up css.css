@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: Century Gothic, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  .nav {
+   overflow: hidden;
+   background-color: #333333;
+   }
+
+  .nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+  .nav a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown {
+   float: left;
+   overflow: hidden;
+  }
+
+  .dropdown .dropdown-button {
+   font-size: 16px;  
+   border: none;
+   color: white;
+   padding: 14px 16px;
+   background-color: inherit;
+   font-family: inherit;
+   margin: 0;
+  }
+
+  .nav a:hover, .dropdown:hover .dropdown-button {
+   background-color: #808080;
+   color: black;
+   text-decoration: none;
+  }
+
+  .dropdown-links {
+   display: none;
+   position: absolute;
+   background-color: #333333;
+   min-width: 160px;
+  }
+
+  .dropdown-links a {
+   float: none;
+   color: white;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+   }
+
+  .dropdown-links a:hover {
+   background-color: #999999;
+   text-decoration: none;
+  }
+
+  .dropdown:hover .dropdown-links {
+   display: block;
+  }
+
+  .sign-up {
+    padding-left: 25px;
+  }
+
+  .sign-up input {
+   width: 100%;
+   padding: 15px;
+   margin: 6px 0 20px 0;
+   display: inline-block;
+   border: none;
+   background: #f1f1f1;
+  }
+
+  .symptoms {
+   padding: 25px;
+   margin: 6px 0 20px 0;
+   display: inline-block;
+   border: none;
+  }
+
+  .states-and-divisions {
+    padding-left: 25px;
+  }
+
+  .submit-sign-up {
+    padding-left: 25px;
+  }
+
+  .submit-sign-up button {
+   background-color: #04AA6D;
+   color: white;
+   padding: 14px 20px;
+   border: none;
+   width: 280px;
+   cursor: pointer;
+  }
+
+  .submit-sign-up button:hover {
+   background-color: #1db27c;
+  }

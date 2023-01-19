@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, serif;
+    text-align: center;
+ }
+   body {
+      background-image: url("medical tools.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-width: auto;
+    background-height: 100px;
+   }
+
+ .main {
+   text-align: center;
+ }
+
+ .Links {
+    padding-left: 25px;
+ }
+
+ .Links button { 
+   background-color: #ffffff;
+   color: black;
+   padding: 14px 20px;
+   border: none;
+   width: 280px;
+   cursor: pointer;
+ }
+
+ .Links button:hover {
+   background-color: #404040;
+   color: white;
+ }

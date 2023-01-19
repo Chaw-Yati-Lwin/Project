@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, serif;
+    margin: 0;  
+  }
+  
+  body {
+    background-image: url("Medical Symbols.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  
+  .header {
+    padding: 30px;
+    text-align: center;
+    background-color: #c2e0ff;
+  }
+  
+  .nav {
+    overflow: hidden;
+    font-size: 18px;
+    background-color: black;
+  }
+  
+  .nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+    color: white;
+    float: left;
+    display: block;
+  }
+  
+  .nav a.right {
+    float: right;
+  }
+  
+  .nav a:hover {
+    background-color: #99ccff;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropdown-button {
+    font-size: 16px;  
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .nav a:hover, .dropdown:hover .dropdown-button {
+    background-color: #badcff;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dropdown-links {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+  }
+  
+  .dropdown-links a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-links a:hover {
+    background-color: #cee6ff;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-links {
+    display: block;
+  }
+  
+  .main {   
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c2e0ff;
+    padding: 10px 20px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #538cc6;
+    font-size: auto;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: #336699;
+    font-weight: bold;
+  }
+  
